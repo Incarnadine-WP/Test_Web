@@ -4,6 +4,7 @@ using UnityEngine.EventSystems;
 public class Button : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private LoadSprites loadPanel;
+
     private int animIndex = Animator.StringToHash("anim");
     private bool on;
     private Animator animator;
@@ -15,19 +16,17 @@ public class Button : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Click");
-
         StartGame();
     }
 
     private void StartGame()
     {
-        on = true;
-
-        if (on)
+        if (!on)
         {
+            on = true;
             animator.SetBool(animIndex, true);
             loadPanel.load();
+            Debug.Log("Click");
         }
     }
 }

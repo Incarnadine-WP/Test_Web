@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf067bb32e735ae4484c28e753a29cd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer:
+  SpriteRenderer:
   - {fileID: 1203451398}
   - {fileID: 31387253}
   - {fileID: 685303890}
@@ -408,17 +408,57 @@ MonoBehaviour:
   - {fileID: 612153928}
   - {fileID: 1029672305}
   - {fileID: 469538906}
-  strings:
-  - Assets/Sprites/Image 6.jpg
-  - Assets/Sprites/Image 10.jpg
-  - Assets/Sprites/Image 4.jpg
-  - Assets/Sprites/Image 7.jpg
-  - Assets/Sprites/Image 5.jpg
-  - Assets/Sprites/Image 9.jpg
-  - Assets/Sprites/Image 2.jpg
-  - Assets/Sprites/Image 1.jpg
-  - Assets/Sprites/Image 8.jpg
-  - Assets/Sprites/Image 3.jpg
+  AddressableSprite:
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 1
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 10
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 2
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 3
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 4
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 5
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 6
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 7
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 8
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  - m_AssetGUID: cadd02ca732037044bbb038486a05e0e
+    m_SubObjectName: Image 9
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
 --- !u!1 &266573016
 GameObject:
   m_ObjectHideFlags: 0
